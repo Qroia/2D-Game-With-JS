@@ -22,7 +22,7 @@ window.addEventListener('load', () => {
       this.height = 190;
       this.x = 20;
       this.y = 100;
-      this.speedY = 0.2;
+      this.speedY = 1;
     }
     update() {
       this.y += this.speedY;
